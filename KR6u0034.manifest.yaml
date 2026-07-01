@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6u0034/v1
+canonical_location: https://kanripo.org/bkk/KR6u0034/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 高王觀世音經
+  identifiers:
+    alt_id:
+    - T85n2898
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2898.xml
+    old_id: T85n2898
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0034_000.yaml, hash: 'sha256:288f481c93f94a5faae1fc110b52eec35bd272a146ea964235267dde37db50d7'}
+  - {seq: 1, filename: KR6u0034_001.yaml, hash: 'sha256:b2f218dc444bf2190302627f4d7293f9b82ff3fe511e7ff0dbdd25e941eddca2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6u0034_001.markers.yaml, hash: 'sha256:059d8c963d7632d5dbb2c79c54fdbf802f1e6d67d7e83db7fcec43db6966cbd5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0034_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 676
+  label: 佛說高王觀世音經
+  type: juan
+  level: 1
+hash: sha256:0d5feba6ef41ffadf756563e69c8f3cbed3e5ff14a59634b8f4d8e4af09e2825
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
